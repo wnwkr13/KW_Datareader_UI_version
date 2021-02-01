@@ -12,7 +12,7 @@ from PyQt5 import uic
 pymysql.install_as_MySQLdb()
 
 
-form_class = uic.loadUiType("KIWOOM_data_reader.ui")[0]
+form_class = uic.loadUiType("KW_data_reader.ui")[0]
 
 
 
@@ -25,7 +25,7 @@ class UI_Class(QMainWindow, form_class):
 
 
 
-        #login
+        #logins
         self.kw.signal_login_commConnect()
         self.get_account_number()
         self.account_num.addItems(self.account_list)

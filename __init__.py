@@ -1,4 +1,4 @@
-from ui.KIWOOM_data_reader import *
+from ui.KW_data_reader import *
 
 
 class Main():
